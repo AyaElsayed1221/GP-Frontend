@@ -1,0 +1,76 @@
+
+
+<mat-card style="margin-top: 10px;" >
+      <h4 class="ee"> <mat-icon >account_circle</mat-icon>Profile Details</h4>
+    <div class="ee">
+    <mat-card-content>
+
+   <div class="bootstrap-wapper">
+
+    
+    <div class="container text-center" >
+       
+        <div class="container">
+            <img src="/assets/th3.jpg" alt="" class="profile-image ">
+
+            <h1 class="mt-20"> AMR ALI Hamed</h1>
+        </div>
+
+        <button   class="tt" mat-list-item [routerLink]="'/user-dashboard/profile/' + patientId" > click</button>
+
+        <div class="row">
+            <div class="col-md-9 offset-md-1">
+
+               <!--table Details-->
+<table class="table text-center"  >
+
+    <thead class="thead-dark">
+        <tr>
+       
+          <th scope="col">Name</th>
+          <th scope="col">patientid</th>
+          <th scope="col">age</th>
+          <th scope="col">bloodPressure</th>
+          <th scope="col">bloodType</th>
+          <th scope="col">Diabietes</th>
+          <th scope="col">heartDiseases</th>
+          <th scope="col">Alcohol</th>
+          <th scope="col">Diabietes</th>
+          <th scope="col"> treatment</th>
+        </tr>
+      </thead>
+
+    <tbody>
+        <tr *ngFor="let i of info">
+          
+      
+          
+           
+          <td>{{i.bloodPressure}}</td>
+          <td>{{i.bloodType}}</td>
+          <td>{{i. diabietes}}</td>
+          <td>{{i.heartDisease}}</td>
+          <td>{{i.alcohol}}</td>
+          <td>{{i.treatment}}</td>
+        </tr>
+        
+         
+      
+
+
+
+      
+      </tbody>
+
+</table>
+
+
+            </div>
+
+        </div>
+    </div>
+   </div>
+    </mat-card-content>
+</div>
+</mat-card>
+

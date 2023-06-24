@@ -1,0 +1,155 @@
+
+
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    margin-right: 10px;
+    color: white;
+    background-color: rgb(129, 131, 127);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    background-color: #121a80b2;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+a{margin-top: 14PX;
+    font-size: small;
+    float: right;
+    display: inline;
+    color: white;
+    cursor:pointer;
+    background-color: #555;
+    border-radius: 5px;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0px 100px ;
+    margin-left: 550px;
+
+    width: 60%;
+    display: block;
+    margin-bottom: 10px;
+
+   
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;
+    background:  url("/assets/h3.jpg");
+    padding-top: 40px;
+    padding-right: 500px;
+     
+     height: 100vh;
+     background-repeat: no-repeat;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+     margin-top: 10PX;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .foo {
+    text-align: center;
+    background: #c6c9e0bb;
+    color: rgb(25, 36, 189);
+    line-height: 50px;
+    padding: 0 0px;
+    width: 100%;
+}
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 0px;
+    }
+  }
+
+
+  .body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 520px;
+    background:  url("/assets/h3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 11px;
+}
+
+.body h2 {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.body p {
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+    
+    font-weight: bold;
+}
+
+.body button {
+    background-color: #c6c9e0bb;
+    color: #02010a;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.4)
+}
+.btn {
+    border: none;
+    background-color: #c6c9e0bb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+  }

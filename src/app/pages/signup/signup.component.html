@@ -1,0 +1,113 @@
+
+<div class="xx">
+
+<div class="bootstrap-wrapper">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6 offset-md-3">
+
+                <mat-card>
+                <div class="container text-center">
+                    <img src="../../../assets/th.jpeg" style="width: 100px; height: 100px;">
+                </div>
+                <h4 class="text-center">please,SignUp </h4>
+                
+
+                <form (ngSubmit)="formSubmit()">
+
+                    <mat-form-field class="full-width" appearance= "fill">
+                        <mat-label>First Name </mat-label>
+                        <input   [(ngModel)]="user.firstName" name="firstName" matInput placeholder="Enter your  first name" id="firstName">
+                    </mat-form-field>
+
+                    <mat-form-field class="full-width" appearance="fill">
+                        <mat-label>Middle Name </mat-label>
+                        <input [(ngModel)]="user.middleName" name="middleName"   matInput placeholder="Enter your  middle name" id="middleName">
+                    </mat-form-field>
+
+                    <mat-form-field class="full-width" appearance="fill">
+                        <mat-label>Last Name </mat-label>
+                        <input   [(ngModel)]="user.lastName" name="lastName"    matInput placeholder="Enter your last name" id="lastName" >
+                    </mat-form-field>
+                    <mat-form-field class="full-width" appearance="fill">
+                        <mat-label>Username </mat-label>
+                        <input   [(ngModel)]="user.username" name="username"      matInput placeholder="Enter your user name" id="username">
+                    </mat-form-field>
+
+                    <mat-form-field class="full-width" appearance="fill">
+                        <mat-label> User password </mat-label>
+                        <input  [(ngModel)]="user.password" name="password"type="password" matInput placeholder="Enter your password" id="password">
+                    </mat-form-field>
+
+                    <mat-form-field class="full-width" appearance="fill">
+                        <mat-label>Email Address </mat-label>
+                        <input  [(ngModel)]="user.email" name="email" type="email" matInput placeholder="Enter your Email Adress" id="email">
+                    </mat-form-field>
+
+                    <mat-form-field class="full-width" appearance="fill">
+                        <mat-label>Phone Number</mat-label>
+                        <input [(ngModel)]="user.phoneNumber" name="phoneNumber"  type="number" matInput placeholder="Enter your Phone number" id="phoneNumber">
+                    </mat-form-field>
+
+                    <mat-form-field class="full-width" appearance="fill">
+                        <mat-label>Date of Birth </mat-label>
+                        <input  [(ngModel)]="user.dateOfBirth" name="dateOfBirth"   matInput placeholder="Enter your Date of Birth" id="dateOfBirth">
+                    </mat-form-field>
+
+                    <mat-form-field class="full-width" appearance="fill">
+                        <mat-label>role </mat-label>
+                        <input  [(ngModel)]="user.authorityName" name="authorityName"   matInput placeholder="Enter your role" id="authorityName">
+                    </mat-form-field>
+
+                    <mat-form-field class="full-width" appearance="fill">
+                        <mat-label>relation name </mat-label>
+                        <input  [(ngModel)]="user.relationName" name="relationName"   matInput placeholder="Enter your relation name" id="relationName">
+                    </mat-form-field>
+
+                    <mat-form-field class="full-width" appearance="fill">
+                        <mat-label>relative type </mat-label>
+                        <input  [(ngModel)]="user.relativeType" name="relativeType"   matInput placeholder="Enter your relative type" id="relativeType">
+                    </mat-form-field>
+
+                    <mat-form-field class="full-width" appearance="fill">
+                        <mat-label>relative email </mat-label>
+                        <input  [(ngModel)]="user.relativeEmail" name="relativeEmail"   matInput placeholder="Enter your relative email" id="relativeEmail">
+                    </mat-form-field>
+
+
+                    <mat-form-field class="full-width" appearance="fill">
+                        <mat-label> relative phone </mat-label>
+                        <input  [(ngModel)]="user.relativePhone" name="relativePhone"   matInput placeholder="Enter your relative phone" id="relativePhone">
+                    </mat-form-field>
+
+                    <mat-form-field class="full-width" appearance="fill">
+                        <mat-label>city </mat-label>
+                        <input  [(ngModel)]="user.city" name="city"   matInput placeholder="Enter your city" id="city">
+                    </mat-form-field>
+
+                    <mat-form-field class="full-width" appearance="fill">
+                        <mat-label>street </mat-label>
+                        <input  [(ngModel)]="user.street" name="street"   matInput placeholder="Enter your streetx" id="street">
+                    </mat-form-field>
+
+                    <mat-form-field class="full-width" appearance="fill">
+                        <mat-label>apartmentNo </mat-label>
+                        <input  [(ngModel)]="user.apartmentNo" name="apartmentNo"   matInput placeholder="Enter your apartmentNo" id="apartmentNo">
+                    </mat-form-field>
+
+
+                    <div class="container text-center">
+                        <button  type="submit" mat-raised-button color="primary" >SigUp</button>
+                        <button  style="margin-left: 20px;" mat-raised-button color="accent" >Clear</button>
+
+
+                    </div>
+                </form>
+            </mat-card>
+            </div>
+        </div>
+
+
+    </div>
+</div></div>

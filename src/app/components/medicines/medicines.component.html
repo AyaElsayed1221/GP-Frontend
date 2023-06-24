@@ -1,0 +1,36 @@
+<body>
+    <div class="about-section">
+       Current Medicines
+    </div>
+    <table border="5" class="table">
+        <thead class="thead-dark">
+          <tr>
+         
+            <th scope="col">Medicine Name</th>
+            <th scope="col">Doses</th>
+            <th scope="col">Start Date</th>
+            <th scope="col">Period</th>
+           
+          </tr>
+        </thead>
+
+
+
+        <tbody>
+          <tr *ngFor="let i of medicinelist">
+            
+            <td> {{i.medicineName}}</td>
+            <td>{{i.medicineDoses}}</td>
+            <td> {{i.startDate}}</td> 
+            <td>{{i.startDate}}</td>
+            
+          </tr>
+          
+           
+        
+
+
+
+        
+        </tbody>
+      </table>

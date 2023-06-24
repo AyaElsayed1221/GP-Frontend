@@ -1,0 +1,8 @@
+/* CSS for footer */
+.foo {
+    text-align: center;
+    background: #611b1b;
+    color: black;
+    line-height: 50px;
+    padding: 0 20px;
+}

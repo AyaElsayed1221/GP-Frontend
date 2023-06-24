@@ -1,0 +1,44 @@
+
+.yy{margin-top: 20px;
+    padding-top: 40px;
+    padding-right: 500px;
+     background-image:url("/assets/tr.jpeg"); 
+     height: 80vh;
+     background-repeat: no-repeat;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  
+
+  .scan{margin-left: 40px;
+   padding: 10px;
+    border-radius: 50px;
+    margin-top: 20px;
+    background-color: rgba(66, 94, 84, 0.137);
+    width: 400px;
+    height:50px;
+    text-align: center;
+    color: #0c2ab3;
+    font-weight: bold;
+    box-shadow: #68839449 0px 8px;
+  }

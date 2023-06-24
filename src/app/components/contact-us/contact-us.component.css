@@ -1,0 +1,105 @@
+
+
+
+
+* {
+	
+
+
+
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+.about-section {
+    padding: 3px;
+    text-align: center;
+    background-color: #157269;
+    color: white;
+	height: 50px;
+}
+
+.container {
+	max-width:500px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: red;
+	display: block;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:15px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+
+input{
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+input:hover{
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	width: 500px;
+	max-width:100%;
+  resize:none;
+}
+.submit {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#1227a1;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+.submit:hover {
+	color: #999;
+	background:rgb(54, 23, 192);
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+

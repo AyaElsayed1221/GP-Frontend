@@ -1,0 +1,204 @@
+.about-section {
+    padding: 3px;
+    text-align: center;
+    background-color: #104eaa67;
+    color: white;
+    margin-top: 12px;
+
+}
+
+.yy{
+    padding-top: 40px;
+    padding-right: 500px;
+   background-color: #f5f6fa;
+     height: 80vh;
+     background-repeat: no-repeat;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+}
+body
+{
+background-color: #f5f6fa;
+font-family: Roboto;
+}
+
+#mra_app
+{
+padding-bottom: 90px;
+}
+
+#mra_body
+{
+margin-top: 20px;
+}
+
+#mra_body .mra_body_header
+{
+font-size: 12px;
+font-weight: 600;
+padding: 0px 10px;
+}
+
+#mra_body .mra_body_header select
+{
+float: right;
+border: none;
+font-size: 12px;
+font-weight: 500;
+color: rgba(9,16,255,1);
+background-color: rgba(9,16,255,0.08);
+padding: 5px;
+border-radius: 8px;
+margin-top: -5px;
+}
+
+#mra_body .mra_body_data
+{
+padding: 0 10px;
+}
+
+#mra_body .row:nth-child(2)
+{
+margin-top: 15px;
+}
+
+#mra_body .mra_body_data ul
+{
+padding: 0;
+}
+
+#mra_body .mra_body_data ul li
+{
+list-style: none;
+font-size: 12px;
+font-weight: 600;
+padding: 20px 0;
+color: rgba(0,0,0,0.4);
+}
+
+.mra_body_data .medicine_info
+{
+position: relative;
+background-color: #fff;
+height: 90%;
+border-radius: 15px;
+padding: 20px;
+}
+
+.mra_body_data .medicine_info > span
+{
+float: left;
+}
+
+.mra_body_data .medicine_info .m_icon
+{
+padding: 10px;
+margin-right: 20px;
+display: inline-block;
+height: 100%;
+border-radius: inherit;
+}
+
+.mra_body_data .medicine_info .m_icon img
+{
+width: 25px;
+}
+
+.mra_body_data .medicine_info .m_info
+{
+display: inline-block;
+padding-top: 5px;
+}
+
+.mra_body_data .medicine_info .m_info > span
+{
+display: block;
+}
+
+.mra_body_data .medicine_info .m_info span.m_name
+{
+font-size: 18px;
+font-weight: 600;
+color: rgba(0,0,0,0.9);
+}
+
+.mra_body_data .medicine_info .m_info span.m_dosage
+{
+font-size: 11.5px;
+font-weight: 600;
+color: rgba(0,0,0,0.4);
+margin-top: 1px;
+}
+
+.mra_body_data .medicine_info .m_info span.m_time
+{
+position: absolute;
+font-size: 12.5px;
+font-weight: 600;
+color: rgba(0,0,0,0.4);
+bottom: 0;
+margin-bottom: 25px;
+}
+
+.mra_body_data .medicine_info .m_status
+{
+position: absolute;
+right: 0;
+margin-right: 20px;
+width: 40px;
+height: 40px;
+line-height: 39px;
+text-align: center;
+color: rgba(0,0,0,0.25);
+border: 1.5px dashed rgba(0,0,0,0.15);
+border-radius: inherit;
+}
+
+
+
+
+#mra_body .col-3
+{
+flex: 0 0 21%;
+max-width: 21%;
+}
+
+#mra_body .col-9
+{
+flex: 0 0 79%;
+max-width: 79%;
+padding-left: 0;
+}
+
+.mra_body_data.color-violet ul li
+{
+border-right: 1px solid rgba(166,0,248,0.25);
+box-shadow: 15px 0 10px -10px rgba(166,0,248,0.15);
+}
+
+.mra_body_data.color-orange ul li
+{
+border-right: 1px solid rgba(253,120,11,0.25);
+box-shadow: 15px 0 10px -10px rgba(253,120,11,0.15);
+}
+
+.mra_body_data ul li:first-child
+{
+border-radius: 0 25px 0 0;
+}
+
+.mra_body_data ul li:last-child
+{
+border-radius: 0 0 25px 0;
+}
+
+.mra_body_data.color-violet .medicine_info .m_icon
+{
+background-color: rgba(166,0,248,0.15);
+}
+
+.mra_body_data.color-orange .medicine_info .m_icon
+{
+background-color: rgba(253,120,11,0.15);
+}

@@ -1,0 +1,25 @@
+.yy{
+    margin-top: -50px;
+}
+
+.container {margin-top: -200px;
+    width: 1000px;
+    height: 500px;
+    margin: 70px auto;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 5px 5px 10px rgb(180, 170, 170), -5px -5px 10px rgb(179, 165, 165);
+    
+  }
+  
+  .pre {
+    padding: 20px;
+    color: rgb(39, 30, 172);
+    margin-left: 70px;
+  }
+  
+  p {
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  

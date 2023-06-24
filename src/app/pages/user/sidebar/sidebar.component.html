@@ -1,0 +1,63 @@
+<mat-card  style="margin-top: 10px;">
+
+    <mat-action-list style="margin-top: 10px;" >
+        <div  style="color: rgb(42, 42, 165);"      class="tt" mat-subheader>Choose Service</div>
+        <button class="tt"  mat-list-item   routerLink="/"> 
+            <mat-icon  mat-list-icon>home</mat-icon>
+           back to Home
+        </button>
+
+
+        <button  class="tt" mat-list-item [routerLink]="'/user-dashboard/profile'" > 
+
+           
+            <mat-icon mat-list-icon  >account_circle</mat-icon>
+           Profile
+        </button>
+
+        <button class="tt" mat-list-item routerLink="/user-dashboard/medicines/:id"> 
+
+           
+            <mat-icon mat-list-icon  >dialpad</mat-icon>
+           Current Mediciens
+        </button>
+
+        <button class="tt" mat-list-item routerLink="/user-dashboard/labresults"> 
+
+           
+            <mat-icon mat-list-icon  >spellcheck</mat-icon>
+           Lab Results
+        </button>
+
+       
+
+        <button class="tt" mat-list-item routerLink="/user-dashboard/reminders"> 
+
+           
+            <mat-icon mat-list-icon  >query_builder</mat-icon>
+           Reminder
+        </button>
+
+        <button class="tt" mat-list-item routerLink="/user-dashboard/lost"> 
+
+           
+            <mat-icon mat-list-icon  >find_in_page</mat-icon>
+           lost card
+        </button>
+        <button class="tt" mat-list-item > 
+            <section style="width: 30px; height: 10px; ">
+                <mat-form-field style="width: 180px; height: 80px; margin-top: -35px; margin-left: -20px;" appearance="outline">
+                  <mat-label >Selected spelization</mat-label>
+                  <mat-select >
+                    <mat-option *ngFor="let framwork of frameworks" [value]="framwork" routerLink="/user-dashboard/spelization">
+                    {{ framwork }}
+                   </mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </section>
+           
+            
+        </button>
+
+    </mat-action-list>
+</mat-card>

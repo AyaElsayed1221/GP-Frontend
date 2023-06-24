@@ -1,0 +1,31 @@
+<form style="margin-bottom: 50px;">
+    <div class="container">  
+        <form      (ngSubmit)="lost()"      id="contact" action="" method="post">
+            <h3>inform us!</h3>
+            <h4>inform us quicly to  protect your info  !</h4>
+            <fieldset>
+                <input placeholder="Your name" type="text" tabindex="1"    [(ngModel)]="lostc.name" name="name" id="name"  required autofocus>
+            </fieldset>
+            <fieldset>
+                <input  placeholder="Your Email Address" type="email" tabindex="2" [(ngModel)]="lostc.email" name="email" id="email" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your phone number" type="tel" tabindex="3" [(ngModel)]="lostc.phone" name="phone" id="phone" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your ID" type="password" tabindex="4" [(ngModel)]="lostc.RequestId" name="RequestId" id="RequestId" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your Card ID" type="password" tabindex="5" [(ngModel)]="lostc.cardId" name="cardId" id="cardId" required>
+            </fieldset>
+            <fieldset>
+                <textarea placeholder="Loss Details..." tabindex="6"[(ngModel)]="lostc.lossDetails" name="lossDetails" id="lossDetails"  required></textarea>
+            </fieldset>
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+    
+    </form>
+

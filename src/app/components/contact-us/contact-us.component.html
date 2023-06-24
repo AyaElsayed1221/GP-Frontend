@@ -1,0 +1,35 @@
+
+<div class="xx">
+<div class="container">  
+
+    <form    (ngSubmit)="contactUs()"  id="contact" action="" method="post">
+        <h3>Quick Contact</h3>
+
+        <h4>Contact us today, and get reply within 24 hours!</h4>
+
+        <fieldset>
+            <input placeholder="Your TicketId" type="text" tabindex="1"    [(ngModel)]="contact.TicketId" name="TicketId" id="TicketId" required autofocus>
+        </fieldset>
+
+        <fieldset>
+            <input placeholder="Your Name" type="text" tabindex="2"  [(ngModel)]="contact.name" name="name" id="name"  required>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Your Email" type="email" tabindex="3" [(ngModel)]="contact.email" name="email" id="email" required>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Your Phone Number" type="tel" tabindex="4" [(ngModel)]="contact.phone" name="phone" id="phone" required>
+        </fieldset>
+
+        <fieldset>
+            <textarea placeholder="Type your Message Here...." tabindex="5"  [(ngModel)]="contact.message" name="message" id="message" required></textarea>
+        </fieldset>
+
+        <fieldset>
+            <button class="submit" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+
+    </form>
+
+</div>
+</div>

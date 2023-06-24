@@ -1,0 +1,62 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 520px;
+    background:  url("/assets/health.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 11px;
+}
+
+.body h2 {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.body p {
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+    
+    font-weight: bold;
+}
+
+.body button {
+    background-color: #c6c9e0bb;
+    color: #02010a;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.4)
+}
+.btn {
+    border: none;
+    background-color: #c6c9e0bb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+
+
+
+  .foo {
+    text-align: center;
+    background: #c6c9e0bb;
+    color: rgb(7, 1, 1);
+    line-height: 50px;
+    padding: 0 20px;
+}
